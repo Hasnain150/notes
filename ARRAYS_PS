@@ -1,0 +1,78 @@
+//Question No. 1
+
+/*let array=[21,23,4];
+let a;
+do{
+   let x=prompt("what value you want to add in it ");
+  x=Number.parseInt(x);
+  array.push(x);
+   a=prompt("do you want to add another value");
+  
+  
+}while(a=='Y' || a=="y")
+console.log(array)*/
+
+//QUestion NO.2
+/*
+let array=[21,23,4];
+let a=1;
+do{
+   let x=prompt("what value you want to add in it ");
+  x=Number.parseInt(x);
+  array.push(x);
+  a=x
+   
+  
+  
+}while(a!=0)
+let m=array.length;
+delete array[m-1];
+console.log(array)*/
+
+
+//Question no.3
+/*
+let divisibleByTen=(a)=>{
+  return a%10==0;
+}
+let array=[2];
+let a=1;
+do{
+   let x=prompt("what value you want to add in it ");
+  x=Number.parseInt(x);
+  array.push(x);
+  a=x
+   
+  
+  
+}while(a!=0)
+
+let newArr=array.filter(divisibleByTen);
+
+
+console.log(array)
+console.log(newArr)*/
+/*
+let square=(a)=>{
+
+  return a*a;
+}
+let array=[2];
+let a=1;
+do{
+   let x=prompt("what value you want to add in it ");
+  x=Number.parseInt(x);
+  array.push(x);
+  a=x
+   
+  
+  
+}while(a!=0)
+let newArr=array.map(square);
+
+
+
+
+console.log(array)
+console.log(newArr)
+*/
