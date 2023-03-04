@@ -1,0 +1,42 @@
+function generateRandomOption() {
+  var options = ["SNAKE", "WATER", "GUN"];
+  var randomIndex = Math.floor(Math.random() * options.length);
+  return options[randomIndex];
+}
+
+let x=true;
+let d;
+let uscore=0;
+let cscore=0;
+let a;
+
+while(x==true){
+   d=prompt("CHOSE WATER SNAKE OR GUN")
+ 
+   a=generateRandomOption();
+  alert(a);
+  if(d=="SNAKE" && a=="WATER"){
+    uscore=uscore+1;
+    alert("YOU WIN");
+  }
+  else if(d=="GUN" && a=="SNAKE"){
+     uscore=uscore+1;
+    alert("YOU WIN");
+    
+  }
+  else if(d=="WATER" && a=="GUN"){
+     uscore=uscore+1;
+    alert("YOU WIN");
+  }else if(d==a){
+    uscore+=1;
+    cscore+=1;
+    alert("DRAW")
+  }
+  else{
+    alert("YOU LOSE")
+    cscore+=1;
+  }
+  x=confirm("AGAIN?")
+}
+alert("YOUR SCORE IS "+uscore);
+alert("COMPUTER SCORE IS "+cscore);
