@@ -76,3 +76,42 @@ let newArr=array.map(square);
 console.log(array)
 console.log(newArr)
 */
+
+//Question NO. 5
+/*
+let array=[1,2,3,4,5];
+let newArray=array.reduce((a,b)=>{
+  return a*b;
+})
+console.log(newArray)*/
+
+
+//Exercies nO.1
+/*
+const min = 1;
+const max = 100;
+const randomInt = Math.floor(Math.random() * (max - min + 1)) + min;
+
+console.log("RANDOM NUMBER HAS BEEN GENERATED <");
+console.log("NOW GUESS THE NUMBER")
+let score=100;
+let x=true;
+do{
+let guess=prompt("GUESS THE NUMBER")
+if(guess==randomInt){
+  console.log("YOU GUESSED IT RIGHT. THE NUMBER IS "+guess);
+  x=false;
+}else if(guess>randomInt){
+
+  console.log("YOUR GUESS IS GREATER");
+  score-=1;
+  
+}else if(guess<randomInt){
+
+  console.log("YOUR GUESS IS SMALLER");
+  score-=1;
+  
+}
+}while(x==true);
+console.log("YOUR SCORE IS "+ score);
+*/
