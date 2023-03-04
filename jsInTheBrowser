@@ -1,0 +1,57 @@
+/*let x=prompt("what color you want the background to be");
+document.body.style.backgroundColor=x;
+*//*
+let x = confirm("DO YOU WANT TO GO TO THAT SONG SITE");
+if (x == true) {
+  location.href = "https://www.youtube.com/watch?v=0XyV-vw5II4"
+  document.write("true")
+}
+else {
+  alert("ALRIGHT NO WORRYs")
+}*/
+
+//Question no.1
+/*
+let age=prompt("WHAT IS YOUR AGE");
+age=Number.parseInt(age);
+if(age>17){
+  document.write("YOU CAN DRIVE MY BOI")
+}
+else if(age<17 && age>0){
+  document.write("you can't drive")
+}*/
+/*
+let x=true;
+let age;
+do{
+ age=prompt("WHAT IS YOUR AGE");
+age=Number.parseInt(age);
+if(age>=18){
+  alert("YOU CAN DRIVE")
+}
+  else if(age<0){
+    console.error("AGE CAN\"T BE NEGATIVE")
+  }
+else{
+   alert("YOU CAN\'T DRIVE");
+}
+  
+  x=confirm("DO YOU WANT TO SEE THE PROMPT AGAIN")
+  
+}while(x==true)
+*/
+
+//Quesntion no.4
+/*
+let age=prompt("WHAT IS YOUR AGE");
+age=Number.parseInt(age);
+if(age>4){
+  location.href="https://www.google.com";
+}
+else{
+  alert("NICE TRy")
+}*/
+
+//QUESTIONNO,5
+let x=prompt("what color you want the background to be");
+document.body.style.backgroundColor=x;
